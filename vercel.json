@@ -89,15 +89,5 @@
       "source": "/robots.txt",
       "destination": "/api/robots"
     }
-  ],
-  "crons": [
-    {
-      "path": "/api/cron/cleanup",
-      "schedule": "0 2 * * *"
-    },
-    {
-      "path": "/api/cron/notifications",
-      "schedule": "*/15 * * * *"
-    }
   ]
 }
